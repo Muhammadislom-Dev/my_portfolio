@@ -1,0 +1,39 @@
+.sidebar{
+
+    &__page{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list{
+        list-style: none;
+        display: flex;
+    }
+    &__item{
+        margin: 20px;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 18px;
+        transition: 0.8s;
+
+        &:hover{
+            color: gray;
+            border-bottom: 2px solid gray;
+        }
+    }
+
+    &__name{
+        font-family: "Roboto Mono",monospace!important;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
