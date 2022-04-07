@@ -1,10 +1,13 @@
 import './Header.scss'
 
+import Person from '../../assets/img/person.jpg'
+
 import { Link } from 'react-router-dom'
 
 const Header= () =>{
     return(
         <div className="header">
+            <div className="header__box">
             <div className="header__page">
                 <h1 className='header__name'>Hi, I'm Muhammadislom</h1>
                 <p className="header__text">
@@ -22,6 +25,11 @@ const Header= () =>{
                       </Link>
                    </div>
                 </div>
+            </div>
+            
+             <div className="header__list">
+                 <img className='header__img' src={Person} alt="" />
+             </div>
             </div>
         </div>
     )

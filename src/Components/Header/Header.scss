@@ -1,6 +1,7 @@
 .header{
-    position: absolute;
-    top: 25%;
+    // position: absolute;
+    // top: 25%;
+
 
     &__name{
         font-size: 42px;
@@ -67,5 +68,18 @@
         position: relative;
         top: 22%;
         color: #fff;
+    }
+
+    &__img{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+    &__box{
+        display: flex;
+        justify-content: space-around;
+        // position: absolute;
+        padding-top: 10%;
     }
 }
