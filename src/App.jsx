@@ -1,6 +1,7 @@
 import './App.scss';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Header from './Components/Header/Header';
+import About from './Components/About/About';
 import {Switch, Route} from "react-router-dom"
 
 function App() {
@@ -8,8 +9,11 @@ function App() {
     <div className="App">
       <Sidebar />
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
            <Header />
+        </Route>
+        <Route path="/about">
+           <About />
         </Route>
       </Switch>
     </div>

@@ -1,0 +1,43 @@
+.about{
+
+
+    &__name{
+        text-align: center;
+        font-family: "Roboto Slab",serif;
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+
+    &__text{
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 2px;
+        font-family: "Roboto Slab",serif;
+        color: #949494;
+        margin-top: -10px;
+    }
+    
+    &__page{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5%;
+    }
+
+    &__img{
+        width: 350px;
+        height: 380px;
+    }
+
+    &__texts{
+        font-family: "Roboto Slab", serif;
+        color: #949494;
+        font-size: 26px;
+        letter-spacing: 2px;
+        text-align: justify;
+    }
+    &__list{
+        margin: 40px;
+    }
+
+  
+}
