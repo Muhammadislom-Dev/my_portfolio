@@ -5,6 +5,9 @@ import './Portfolio.scss'
 import tesla from '../../assets/img/tesla.jpg'
 import youtube from '../../assets/img/youtube.jpg'
 import food from '../../assets/img/food.jpg'
+import github from '../../assets/img/github.png'
+import link from '../../assets/img/link.png'
+import movie from '../../assets/img/movie.jpg'
 
 const Portfolio = () =>{
     return(
@@ -19,10 +22,12 @@ const Portfolio = () =>{
                     <p className='section__text'>You can buy the car market any way you want.</p>
                     <div className="section__items">
                         <div className="section__title">
-                            <a href="#" className="section__link">Source</a>
+                            <a href="https://github.com/muhammadislom2004" className="section__link">Source</a>
+                            <img className='section__picture' src={github} alt="" />
                         </div>
                          <div className="section__titles">
                             <a href="#" className="section__links">Demo</a>
+                            <img className='section__pictures' src={link} alt="" />
                          </div>
                     </div>
                 </div>
@@ -34,10 +39,12 @@ const Portfolio = () =>{
                     <p className='section__text'>You can watch the movie by logging in to the  clone version  Youtube.</p>
                     <div className="section__items">
                         <div className="section__title">
-                            <a href="#" className="section__link">Source</a>
+                            <a href="https://github.com/muhammadislom2004" className="section__link">Source</a>
+                            <img className='section__picture' src={github} alt="" />
                         </div>
                          <div className="section__titles">
                             <a href="#" className="section__links">Demo</a>
+                            <img className='section__pictures' src={link} alt="" />
                          </div>
                     </div>
                 </div>
@@ -47,14 +54,16 @@ const Portfolio = () =>{
             <div className="section__list">
                 <img src={food} alt="" className="section__img" />
                 <div className="section__item">
-                    <h3 className='section__names'>Tesla auto</h3>
+                    <h3 className='section__names'>Food shop</h3>
                     <p className='section__text'>You can buy the car market any way you want.</p>
                     <div className="section__items">
                         <div className="section__title">
-                            <a href="#" className="section__link">Source</a>
+                            <a href="https://github.com/muhammadislom2004" className="section__link">Source</a>
+                            <img className='section__picture' src={github} alt="" />
                         </div>
                          <div className="section__titles">
                             <a href="#" className="section__links">Demo</a>
+                            <img className='section__pictures' src={link} alt="" />
                          </div>
                     </div>
                 </div>
