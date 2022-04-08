@@ -21,7 +21,7 @@ const Portfolio = () =>{
                         <div className="section__title">
                             <a href="#" className="section__link">Source</a>
                         </div>
-                         <div className="section__title">
+                         <div className="section__titles">
                             <a href="#" className="section__links">Demo</a>
                          </div>
                     </div>

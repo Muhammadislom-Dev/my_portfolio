@@ -5,5 +5,80 @@
         font-size: 58px;
         font-weight: 700;
         font-family: "Roboto Slab",serif;
+        letter-spacing: 1px;
+    }
+
+    &__full{
+        color: #949494;
+        font-size: 28px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: -18px;
+    }
+    &__img{
+        height: 300px;
+        width: 600px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+
+    &__names{
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+    &__item{
+        margin-left: 40px;
+    }
+    &__text{
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: -10px;
+        letter-spacing: 2px;
+    }
+
+    &__title{
+        width: 140px;
+        height: 40px;
+        background-color: #949494;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    &__titles{
+        width: 140px;
+        height: 40px;
+        background-color: dodgerblue;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    &__link{
+        position: relative;
+        top: 21%;
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 24px;
+        letter-spacing: 1px;
+    }
+    &__links{
+        position: relative;
+        top: 21%;
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 24px;
+        letter-spacing: 1px;
+    }
+    &__items{
+        display: flex;
     }
 }
