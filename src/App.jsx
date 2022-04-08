@@ -3,6 +3,7 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import {Switch, Route} from "react-router-dom"
+import Portfolio from './Components/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/about">
            <About />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
         </Route>
       </Switch>
     </div>
